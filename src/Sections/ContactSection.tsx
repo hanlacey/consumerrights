@@ -8,8 +8,8 @@ import {
     TouchableOpacity,
     View,
 } from 'react-native';
-import image from '../assets/dlp-footer-background.jpg'
 import Section from '../Components/Section';
+import image from '../assets/dlp-footer-background.jpg'
 
 
 export default function ContactSection(): JSX.Element {

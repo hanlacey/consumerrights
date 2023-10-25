@@ -5,11 +5,11 @@ import {
     Text,
     View
 } from 'react-native';
-import image from '../assets/dlp-banner.jpg'
-import Section from '../Components/Section';
-import Button from '../Components/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import Section from '../Components/Section';
+import Button from '../Components/Button'
+import image from '../assets/dlp-banner.jpg'
 
 export default function LandingSection({ onButtonPress }: { onButtonPress: () => void }): JSX.Element {
     return (
