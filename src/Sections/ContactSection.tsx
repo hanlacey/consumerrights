@@ -101,7 +101,8 @@ const styles = StyleSheet.create({
         marginTop: 2,
         opacity: 0.8,
         padding: 10,
-        paddingTop: 15
+        paddingTop: 15,
+        textAlignVertical: 'top'
     },
     button: {
         display: 'flex',
