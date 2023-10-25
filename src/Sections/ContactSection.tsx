@@ -5,22 +5,16 @@ import {
     Text,
     View
 } from 'react-native';
-import image from '../assets/dlp-banner.jpg'
+import image from '../assets/dlp-footer-background.jpg'
 import Section from '../Components/Section';
-import Button from '../Components/Button'
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
-export default function LandingSection({ onButtonPress }: { onButtonPress: () => void }): JSX.Element {
+export default function ContactSection(): JSX.Element {
     return (
         <Section>
             <ImageBackground source={image} resizeMode='cover' style={styles.background}>
                 <View style={styles.textContainer}>
-                    <Text style={styles.subheader}>We are the</Text>
-                    <Text style={styles.title}>Digital Litigation Partners</Text>
+                    <Text style={styles.subheader}>Get in touch</Text>
                 </View>
-                <Button onPress={onButtonPress}><Text style={styles.buttonText}>Learn more</Text></Button>
-                <FontAwesomeIcon icon={faArrowDown} color='white' size={30} style={{ marginTop: 20 }} />
             </ImageBackground>
         </Section>
     );

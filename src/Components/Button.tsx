@@ -6,12 +6,12 @@ import {
     TouchableHighlight
 } from 'react-native';
 
-
-export default function Button({ children }: PropsWithChildren): JSX.Element {
+export default function Button({ children, onPress }: PropsWithChildren & { onPress: () => void }): JSX.Element {
     return (
-        <TouchableHighlight style={styles.container}>
+        <TouchableHighlight style={styles.container} onPress={onPress} activeOpacity={0.2}
+            underlayColor="#263a3d" >
             {children}
-        </TouchableHighlight>
+        </TouchableHighlight >
     );
 }
 
