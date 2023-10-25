@@ -5,7 +5,7 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-
+import LandingSection from './Sections/LandingSection';
 
 
 function App(): JSX.Element {
@@ -16,6 +16,7 @@ function App(): JSX.Element {
           style={{
             backgroundColor: 'white'
           }}>
+          <LandingSection />
         </View>
       </ScrollView>
     </SafeAreaView >
