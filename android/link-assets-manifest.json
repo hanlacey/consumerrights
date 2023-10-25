@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf",
+      "sha1": "e56ffe27d31f8d13499b8d3aa5f00fdfed15da0e"
+    },
+    {
+      "path": "src/assets/fonts/PlayfairDisplay-SemiBoldItalic.ttf",
+      "sha1": "b55f9f0b3fb199d6f5c5f3495924272ffadb70c5"
+    },
+    {
+      "path": "src/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf",
+      "sha1": "72c45479fe155703447ddcde60289724b826d24d"
+    },
+    {
+      "path": "src/assets/fonts/SourceSans3-Italic-VariableFont_wght.ttf",
+      "sha1": "2ac9bd3781d796f40f96fb8e1e72b95abeafc6e5"
+    },
+    {
+      "path": "src/assets/fonts/SourceSans3-VariableFont_wght.ttf",
+      "sha1": "23ffbc0ddca82bf49132d3e2154d345847cc9189"
+    }
+  ]
+}
