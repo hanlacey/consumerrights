@@ -14,7 +14,7 @@ function App(): JSX.Element {
 
   const handleScroll = () => {
     // Scroll to bottom of screen-sized section
-    const yOffset = Dimensions.get('window').height;
+    const yOffset = Dimensions.get('screen').height;
     scrollViewRef.current?.scrollTo({ y: yOffset, animated: true });
   };
 
